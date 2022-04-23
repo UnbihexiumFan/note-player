@@ -7,27 +7,27 @@ Oh man I really need to do something...
 * _Python 3.10_
 
 ## Controls
-1- add new quarter note
+q- add new quarter note
 
     Note ID: Specifies which note id to use. Can be from 0-25, though rests use the id 256.
 
-2- add new half note
+h- add new half note
 
     Note ID: Specifies which note id to use. Can be from 0-25, though rests use the id 256.
 
-3- add new dotted half note
+t- add new dotted half note
 
     Note ID: Specifies which note id to use. Can be from 0-25, though rests use the id 256.
 
-4- add new whole note
+w- add new whole note
 
     Note ID: Specifies which note id to use. Can be from 0-25, though rests use the id 256.
 
-5- add new dotted quarter note
+k- add new dotted quarter note
 
     Note ID: Specifies which note id to use. Can be from 0-25, though rests use the id 256.
 
-6- add new eighth note
+e- add new eighth note
 
     Note ID: Specifies which note id to use. Can be from 0-25, though rests use the id 256.
 
