@@ -7,12 +7,31 @@ Oh man I really need to do something...
 * _Python 3.10_
 
 ## Controls
-n- create new note
+1- add new quarter note
 
-    Note ID: Specifies which note id to use. Can be from 0-10, though rests use the id 256.
-    Note length: Specifies the note length, in beats.
+    Note ID: Specifies which note id to use. Can be from 0-25, though rests use the id 256.
 
-r- create new rest
+2- add new half note
+
+    Note ID: Specifies which note id to use. Can be from 0-25, though rests use the id 256.
+
+3- add new dotted half note
+
+    Note ID: Specifies which note id to use. Can be from 0-25, though rests use the id 256.
+
+4- add new whole note
+
+    Note ID: Specifies which note id to use. Can be from 0-25, though rests use the id 256.
+
+5- add new dotted quarter note
+
+    Note ID: Specifies which note id to use. Can be from 0-25, though rests use the id 256.
+
+6- add new eighth note
+
+    Note ID: Specifies which note id to use. Can be from 0-25, though rests use the id 256.
+
+r- add new rest
 
     Note length: Specifies the note length, in beats.
 
