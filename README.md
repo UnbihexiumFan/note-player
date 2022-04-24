@@ -45,7 +45,10 @@ space- play
 
 p- preset
 
-	Plays a song from a list
+	Plays a song from a list There are no rickrolls in here at all-
 
+arrow keys- move page
 
-I definitely didn't copy this from another one of my repos...
+	Changes the page on the screen; if the amount of notes in your track is greater than 54, move to the next/previous set of 54 notes.
+
+I definitely didn't partially copy this from another one of my repos...
