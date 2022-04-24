@@ -51,4 +51,8 @@ arrow keys- move page
 
 	Changes the page on the screen; if the amount of notes in your track is greater than 54, move to the next/previous set of 54 notes.
 
+b- toggle bars
+
+	Basically toggles whether or not to show bars.
+
 I definitely didn't partially copy this from another one of my repos...
