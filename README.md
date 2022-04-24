@@ -53,6 +53,6 @@ arrow keys- move page
 
 b- toggle bars
 
-	Basically toggles whether or not to show bars.
+	Basically toggles whether or not to show bars and time signature.
 
 I definitely didn't partially copy this from another one of my repos...
