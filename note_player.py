@@ -372,10 +372,10 @@ while True:
                     c.create_line(offset+10, notey, offset+10, notey-25, width=1.5)
                     c.create_line(offset+13, notey-1, offset+13, notey+1, width=1.5)
                 elif nleng == 0.5:
-                    if measures % 1 == 0 and offset < 981 and note_seq_[x][int((offset-80)/17+1)][1] == 0.5:
+                    if measures % 1 == 0 and offset < 981 and len(note_seq_[x]) > int((offset-80)/17+1) and note_seq_[x][int((offset-80)/17+1)][1] == 0.5:
                         c.create_oval(offset, notey+4, offset+10, notey-4, width=1.5, fill="#000000")
                         c.create_line(offset+10, notey, offset+10, notey-25, offset+27, heightmap[note_seq_[x][int((offset-80)/17+1)][0]]-25, width=1.5)
-                    elif measures % 1 == 0.5 and offset > 80 and note_seq_[x][int((offset-80)/17-1)][1] == 0.5:
+                    elif measures % 1 == 0.5 and offset > 80 and len(note_seq_[x]) > 1 and note_seq_[x][int((offset-80)/17-1)][1] == 0.5:
                         c.create_oval(offset, notey+4, offset+10, notey-4, width=1.5, fill="#000000")
                         c.create_line(offset+10, notey, offset+10, notey-25, width=1.5)
                     else:
